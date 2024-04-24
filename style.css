@@ -1,0 +1,41 @@
+body {
+  background-color: rgba(13, 65, 97, 0.79);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 15px;
+  background-color: #c16700;
+  padding: 10px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background-color: blue;
+  border: 7px solid rgba(123, 122, 122, 0.982);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 15px;
+  font-size: 45px; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.grid-number {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0px; 
+}
+
+.item-value {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0px; 
+}
+
+.grid-item:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
